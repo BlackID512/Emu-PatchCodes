@@ -1,0 +1,69 @@
+//Emulator: AetherSX2 And NetherSX2
+//ISO Version: Mortal Kombat Shaolin Monks (NTSC-U) PS2
+//Game ID/ Serial: SLUS-21087
+//CRC: 455DD546
+
+//Kontent View Arena Art To Unlock Them
+patch=1,EE,201C1E2C,extended,00431025
+patch=1,EE,201C1E30,extended,AC820000
+patch=1,EE,201C1E38,extended,24020001
+
+//Kontent View Concept Art To Unlock Them
+patch=1,EE,201C1E84,extended,00431025
+patch=1,EE,201C1E88,extended,AC820000
+patch=1,EE,201C1E90,extended,24020001
+
+//Kontent View Movies To Unlock Them
+patch=1,EE,201C1DD4,extended,00431025
+patch=1,EE,201C1DD8,extended,AC820000
+patch=1,EE,201C1DE0,extended,24020001
+
+//Kontent View Photos To Unlock Them
+patch=1,EE,201C1EDC,extended,00431025
+patch=1,EE,201C1EE0,extended,AC820000
+patch=1,EE,201C1EE8,extended,24020001
+
+//Kontent Unlock Mortal Kombat II
+patch=1,EE,205D82B0,extended,00000001
+
+//Unlock Ko-Op Character Scorpion
+patch=1,EE,205D82B8,extended,00000001
+
+//Unlock Ko-Op Character Sub-Zero
+description=
+patch=1,EE,205D82B4,extended,00000001
+
+//Infinite Energy
+patch=1,EE,20169514,extended,00000000
+
+//Infinite Health
+patch=1,EE,201EB0B0,extended,8C8203A0
+patch=1,EE,201EB0B4,extended,AC820398
+
+//Have All Moves (Minus Fatalities)
+//patch=1,EE,201BB438,extended,00430821
+//patch=1,EE,201BB43C,extended,24020005
+//patch=1,EE,201BB444,extended,A02200E0
+
+//Max Exp Gain
+patch=1,EE,20174508,extended,3C1105F5
+patch=1,EE,20174510,extended,3631E0FF
+
+//Quick Exp Gain
+//patch=1,EE,201744DC,extended,34112710
+
+//1-Hit Deaths (Enemies)
+patch=1,EE,20160C3C,extended,24010001
+patch=1,EE,20160C48,extended,AC810398
+
+//Always Low Game Time
+//patch=1,EE,201D7464,extended,AC800000
+
+//Always Max Enemies Killed
+patch=1,EE,217DB2A8,extended,3210C0AD
+
+//Buying Moves Does Not Decrease Experience
+patch=1,EE,20174C64,extended,00000000
+
+//Enemies Killed Worth 100
+patch=1,EE,2017452C,extended,24030064
