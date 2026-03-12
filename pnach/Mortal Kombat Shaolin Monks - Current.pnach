@@ -1,7 +1,30 @@
+// File does not exist (yet)
 //Emulator: AetherSX2 And NetherSX2
 //ISO Version: Mortal Kombat Shaolin Monks (NTSC-U) PS2
 //Game ID/ Serial: SLUS-21087
 //CRC: 455DD546
+
+//No Lag Config
+// Chat MKSM
+Characters Skinning 
+patch=1,EE,004F4C44,byte,0
+
+//Disable Characters Shadow
+patch=1,EE,004F4BAC,byte,0 
+patch=1,EE,004F5088,byte,0
+ 
+//Disable Characters Glow Effect 
+patch=1,EE,004F5094,byte,0 
+
+//Disable Bloom
+patch=1,EE,004F4B68,byte,0
+
+//Disable Fog 
+patch=1,EE,004F4C08,byte,0
+
+//Disable Light on Characters Skills
+patch=1,EE,004F4C98,byte,0
+//=========================================
 
 //Kontent View Arena Art To Unlock Them
 patch=1,EE,201C1E2C,extended,00431025
@@ -30,7 +53,7 @@ patch=1,EE,205D82B0,extended,00000001
 patch=1,EE,205D82B8,extended,00000001
 
 //Unlock Ko-Op Character Sub-Zero
-description=
+//description=
 patch=1,EE,205D82B4,extended,00000001
 
 //Infinite Energy
@@ -39,6 +62,16 @@ patch=1,EE,20169514,extended,00000000
 //Infinite Health
 patch=1,EE,201EB0B0,extended,8C8203A0
 patch=1,EE,201EB0B4,extended,AC820398
+
+//[Infinite Fatality Meter]
+patch=1,EE,20177640,extended,C6010004
+patch=1,EE,20177654,extended,E4414BB8
+
+//[Kwik Kombo Kount]
+//patch=1,EE,20175940,extended,2442000A
+
+//[Super Kombo Kount]
+patch=1,EE,20175940,extended,24420064
 
 //Have All Moves (Minus Fatalities)
 //patch=1,EE,201BB438,extended,00430821
@@ -53,11 +86,8 @@ patch=1,EE,20174510,extended,3631E0FF
 //patch=1,EE,201744DC,extended,34112710
 
 //1-Hit Deaths (Enemies)
-patch=1,EE,20160C3C,extended,24010001
-patch=1,EE,20160C48,extended,AC810398
-
-//Always Low Game Time
-//patch=1,EE,201D7464,extended,AC800000
+//patch=1,EE,20160C3C,extended,24010001
+//patch=1,EE,20160C48,extended,AC810398
 
 //Always Max Enemies Killed
 patch=1,EE,217DB2A8,extended,3210C0AD
@@ -67,3 +97,16 @@ patch=1,EE,20174C64,extended,00000000
 
 //Enemies Killed Worth 100
 patch=1,EE,2017452C,extended,24030064
+
+//[No Clip (ASM CODE) "Hold/Release L3"]
+patch=1,EE,D0652000,extended,00000200
+patch=1,EE,2038DFA4,extended,1000001C
+patch=1,EE,D0652000,extended,00000000
+patch=1,EE,2038DFA4,extended,0620001C
+
+//[Replace Options With Debug Menu In Game]
+author=Combusto Dragon
+description=Credit: The Cutting Room Floor
+patch=1,EE,204C6FE0,extended,0000019F
+patch=1,EE,204C6FE4,extended,001AAE80
+
