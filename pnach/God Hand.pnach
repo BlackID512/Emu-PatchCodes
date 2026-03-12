@@ -1,1 +1,62 @@
-Edit soon, code on my phone :3
+//Current Usage
+// File does not exist (yet)
+patch=1,EE,90397D48,extended,00832021
+
+//Infinite Life
+patch=1,EE,202C3554,extended,84410548
+patch=1,EE,202C355C,extended,A441054A
+
+//Have Max HP
+patch=1,EE,00568824,extended,00000016
+//Have Max TP
+patch=1,EE,00568825,extended,00000016
+
+//Cheat ganti costume double godhand
+//patch=1,EE,0056877E,extended,00000003
+
+//Max Gold
+patch=1,EE,205686F0,extended,000F423F
+
+//Max Lv 1
+patch=1,EE,1056875C,extended,0000270F
+
+//Max Lv 2
+patch=1,EE,1056875E,extended,0000270F
+
+//Max Lv 3
+patch=1,EE,10568760,extended,0000270F
+
+//Max Lv 4
+patch=1,EE,10568764,extended,0000270F
+
+//Have Max Orbs
+patch=1,EE,00568826,extended,00000016
+
+//Infinite Roulette Orbs
+patch=1,EE,20568778,extended,01010101
+
+//Have All Techniques
+//patch=1,EE,202C912C,extended,34420007
+//patch=1,EE,202C9130,extended,AC62000C
+
+//Have All Roulette
+patch=1,EE,20568800,extended,FFFFFFFF
+
+//Max Tension Gauge (Panjang)
+//patch=1,EE,205CB000,extended,43480000
+
+//Infinite Tension Gauge
+patch=1,EE,205CB004,extended,44480000
+patch=1,EE,D05E86C2,extended,0000FFFE
+patch=1,EE,205E8004,extended,00000000
+
+//Always Max Difficulty Level Meter
+patch=1,EE,105686EC,extended,00001400
+
+//Widescreen hack 16:9
+patch=1,EE,2030b8f0 3c013f9f
+patch=1,EE,2030b8f4 342149f1
+
+//Font fix
+patch=1,EE,202af4f8,extended,3c013f2c
+patch=1,EE,202af4fc,extended,3421cccd
