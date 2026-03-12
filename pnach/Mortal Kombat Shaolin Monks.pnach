@@ -1,0 +1,405 @@
+Emulator: AetherSX2 And NetherSX2
+ISO Version: Mortal Kombat Shaolin Monks (NTSC-U) PS2
+Game ID/ Serial: SLUS-21087
+CRC: 455DD546
+
+//Kontent View Arena Art To Unlock Them
+patch=1,EE,201C1E2C,extended,00431025
+patch=1,EE,201C1E30,extended,AC820000
+patch=1,EE,201C1E38,extended,24020001
+author=Code Master
+
+//Kontent View Concept Art To Unlock Them
+patch=1,EE,201C1E84,extended,00431025
+patch=1,EE,201C1E88,extended,AC820000
+patch=1,EE,201C1E90,extended,24020001
+author=Code Master
+
+//Kontent View Movies To Unlock Them
+patch=1,EE,201C1DD4,extended,00431025
+patch=1,EE,201C1DD8,extended,AC820000
+patch=1,EE,201C1DE0,extended,24020001
+author=Code Master
+
+//Kontent View Photos To Unlock Them
+patch=1,EE,201C1EDC,extended,00431025
+patch=1,EE,201C1EE0,extended,AC820000
+patch=1,EE,201C1EE8,extended,24020001
+author=Code Master
+
+//Kontent Unlock Mortal Kombat II
+patch=1,EE,205D82B0,extended,00000001
+author=Code Master
+
+//Unlock Ko-Op Character Scorpion
+patch=1,EE,205D82B8,extended,00000001
+author=Code Master
+
+//Unlock Ko-Op Character Sub-Zero
+author=Code Master
+description=
+patch=1,EE,205D82B4,extended,00000001
+__________________
+
+//Infinite Energy
+patch=1,EE,20169514,extended,00000000
+author=Code Master
+
+//Infinite Health
+patch=1,EE,201EB0B0,extended,8C8203A0
+patch=1,EE,201EB0B4,extended,AC820398
+author=Code Master
+
+//Have All Moves (Minus Fatalities)
+patch=1,EE,201BB438,extended,00430821
+patch=1,EE,201BB43C,extended,24020005
+patch=1,EE,201BB444,extended,A02200E0
+author=Code Master
+
+//Max Exp Gain
+patch=1,EE,20174508,extended,3C1105F5
+patch=1,EE,20174510,extended,3631E0FF
+author=Code Master
+
+//Quick Exp Gain
+patch=1,EE,201744DC,extended,34112710
+author=Code Master
+
+//1-Hit Deaths (Enemies)
+patch=1,EE,20160C3C,extended,24010001
+patch=1,EE,20160C48,extended,AC810398
+author=Code Master
+
+//Always Low Game Time
+patch=1,EE,201D7464,extended,AC800000
+author=Code Master
+
+//Always Max Enemies Killed
+patch=1,EE,217DB2A8,extended,3210C0AD
+author=Code Master
+
+//Buying Moves Does Not Decrease Experience
+patch=1,EE,20174C64,extended,00000000
+author=Code Master
+
+//Enemies Killed Worth 100
+patch=1,EE,2017452C,extended,24030064
+author=Code Master
+__________________
+
+//The Suffering II-Ties That Bind (Demo) Infinite Health
+patch=1,EE,200C0220,extended,03E00008
+patch=1,EE,200C0224,extended,E4800018
+patch=1,EE,2037DB50,extended,08030088
+patch=1,EE,2037DB54,extended,C480001C
+author=Code Master
+
+//The Suffering II-Ties That Bind (Demo) Infinite Health Kits/ Ammo
+patch=1,EE,202BAC98,extended,00000000
+author=Code Master
+
+//The Suffering II-Ties That Bind (Demo) Infinite Insanity
+patch=1,EE,203067DC,extended,00000000
+author=Code Master
+
+The Suffering II-Ties That Bind (Demo) Infinite Time To Play
+patch=1,EE,20106CF0,extended,00000000
+author=Code Master
+
+//The Suffering II-Ties That Bind (Demo) Max Infinite Health Kits/Ammo]
+patch=1,EE,202BAC90,extended,24020063
+author=Code Master
+
+//The Suffering II-Ties That Bind (Demo) Never Reload
+patch=1,EE,202EB820,extended,24050000
+author=Code Master
+
+//The Suffering II-Ties That Bind (Demo) Enemies Dont Do Close Range Attacks
+patch=1,EE,2050BA88,extended,03E00008
+patch=1,EE,2050BA8C,extended,00000000
+author=Code Master
+
+//The Suffering II-Ties That Bind (Demo) Infinite Flashlight Power
+patch=1,EE,20275978,extended,00000000
+author=Code Master
+
+//The Suffering II-Ties That Bind  (Demo) Extra Health Kits/ Ammo
+patch=1,EE,202BAC90,extended,00511021
+author=Code Master
+__________________
+
+//Mortal Kombat II Player 1 Press L1 + Select To Kill Opponent
+patch=1,EE,E001FBFE,extended,002E97C2
+patch=1,EE,1051A1D8,extended,00000000
+author=Code Master
+
+//Mortal Kombat II Player 1 Press L2 + Select To Finish Him
+patch=1,EE,E002FEFE,extended,002E97C2
+patch=1,EE,1051A062,extended,00000001
+patch=1,EE,1051A1D8,extended,00000000
+author=Code Master
+
+//Mortal Kombat II Player 1 Needs 1 Win To Win
+patch=1,EE,D051A062,extended,00000000
+patch=1,EE,1051A062,extended,00000001
+author=Code Master
+
+//Mortal Kombat II Player 1 Never Wins
+patch=1,EE,1051A062,extended,00000000
+author=Code Master
+
+//Mortal Kombat II Player 2 Needs 1 Win To Win
+patch=1,EE,D051A1DC,extended,00000000
+patch=1,EE,1051A1DC,extended,00000001
+author=Code Master
+
+//Mortal Kombat II Player 2 Never Wins
+patch=1,EE,1051A1DC,extended,00000000
+author=Code Master
+
+//Mortal Kombat II Player 2 Press L1 + Select To Kill Opponent
+patch=1,EE,E001FBFE,extended,002E9902
+patch=1,EE,1051A05E,extended,00000000
+author=Code Master
+
+//Mortal Kombat II Player 2 Press L2 + Select To Finish Him]l
+patch=1,EE,E002FEFE,extended,002E9902
+patch=1,EE,1051A1DC,extended,00000001
+patch=1,EE,1051A05E,extended,00000000
+author=Code Master
+
+//Mortal Kombat II 1-Hit Death Player 1
+patch=1,EE,E00200A1,extended,0051A05E
+patch=1,EE,10519CA0,extended,00000001
+patch=1,EE,1051A05E,extended,00000001
+author=Code Master
+
+//Mortal Kombat II 1-Hit Death Player 2
+patch=1,EE,E00200A1,extended,0051A1D8
+patch=1,EE,10519C88,extended,00000001
+patch=1,EE,1051A1D8,extended,00000001
+author=Code Master
+
+//Mortal Kombat II 25% Health Player 1
+patch=1,EE,E00200A1,extended,0051A05E
+patch=1,EE,10519CA0,extended,00000028
+patch=1,EE,1051A05E,extended,00000028
+author=Code Master
+
+//Mortal Kombat II 25% Health Player 2
+patch=1,EE,E00200A1,extended,0051A1D8
+patch=1,EE,10519C88,extended,00000028
+patch=1,EE,1051A1D8,extended,00000028
+author=Code Master
+
+//Mortal Kombat II 50% Health Player 1
+patch=1,EE,E00200A1,extended,0051A05E
+patch=1,EE,10519CA0,extended,00000050
+patch=1,EE,1051A05E,extended,00000050
+author=Code Master
+
+//Mortal Kombat II 50% Health Player 2
+patch=1,EE,E00200A1,extended,0051A1D8
+patch=1,EE,10519C88,extended,00000050
+patch=1,EE,1051A1D8,extended,00000050
+author=Code Master
+
+//Mortal Kombat II 75% Health Player 1
+patch=1,EE,E00200A1,extended,0051A05E
+patch=1,EE,10519CA0,extended,00000078
+patch=1,EE,1051A05E,extended,00000078
+author=Code Master
+
+//Mortal Kombat II 75% Health Player 2
+patch=1,EE,E00200A1,extended,0051A1D8
+patch=1,EE,10519C88,extended,00000078
+patch=1,EE,1051A1D8,extended,00000078
+author=Code Master
+
+//Mortal Kombat II Infinite Health Player 1
+patch=1,EE,10519CA0,extended,000000A1
+patch=1,EE,1051A05E,extended,000000A1
+author=Code Master
+
+//Mortal Kombat II Infinite Health Player 2
+patch=1,EE,10519C88,extended,000000A1
+patch=1,EE,1051A1D8,extended,000000A1
+author=Code Master
+
+//Mortal Kombat II No Health Player 1
+patch=1,EE,10519CA0,extended,00000000
+patch=1,EE,1051A05E,extended,00000000
+author=Code Master
+__________________
+
+Mortal Kombat II
+
+//Character Modifier Player 1 Baraka
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A050,extended,00000003
+author=Code Master
+
+//Character Modifier Player 1 Jade
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A050,extended,00000010
+author=Code Master
+
+//Character Modifier Player 1 Jax
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A050,extended,0000000B
+author=Code Master
+
+//Character Modifier Player 1 Johnny Kage
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A050,extended,00000002
+author=Code Master
+
+//Character Modifier Player 1 Kintaro (Hangs When Doing Moves)
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A050,extended,0000000C
+author=Code Master
+
+//Character Modifier Player 1 Kitana
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A050,extended,00000004
+author=Code Master
+
+//Character Modifier Player 1 Kung Lao
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A050,extended,00000001
+author=Code Master
+
+//Character Modifier Player 1 Liu Kang
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A050,extended,00000000
+author=Code Master
+
+//Character Modifier Player 1 Mileena
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A050,extended,00000005
+author=Code Master
+
+//Character Modifier Player 1 Noob Saibot
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A050,extended,0000000F
+author=Code Master
+
+//Character Modifier Player 1 Raiden
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A050,extended,00000007
+author=Code Master
+
+//Character Modifier Player 1 Reptile
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A050,extended,00000009
+author=Code Master
+
+//Character Modifier Player 1 Scorpion
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A050,extended,0000000A
+author=Code Master
+
+//Character Modifier Player 1 Shang Tsung
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A050,extended,00000006
+author=Code Master
+
+//Character Modifier Player 1 Shao Kahn (Hangs When Doing Moves)
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A050,extended,0000000D
+author=Code Master
+
+//Character Modifier Player 1 Smoke (Hangs When Doing Some Moves)
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A050,extended,0000000E
+author=Code Master
+
+//Character Modifier Player 1 Sub-Zero
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A050,extended,00000008
+author=Code Master
+
+//Character Modifier Player 2 Baraka
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A1CA,extended,00000003
+author=Code Master
+
+//Character Modifier Player 2 Jade
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A1CA,extended,00000010
+author=Code Master
+
+//Character Modifier Player 2 Jax
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A1CA,extended,0000000B
+author=Code Master
+
+//Character Modifier Player 2 Johnny Kage
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A1CA,extended,00000002
+author=Code Master
+
+//Character Modifier Player 2 Kintaro (Hangs When Doing Moves)
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A1CA,extended,0000000C
+author=Code Master
+
+//Character Modifier Player 2 Kitana
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A1CA,extended,00000004
+author=Code Master
+
+//Character Modifier Player 2 Kung Lao
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A1CA,extended,00000001
+author=Code Master
+
+//Character Modifier Player 2 Liu Kang
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A1CA,extended,00000000
+author=Code Master
+
+//Character Modifier Player 2 Mileena
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A1CA,extended,00000005
+author=Code Master
+
+//Character Modifier Player 2 Noob Saibot
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A1CA,extended,0000000F
+author=Code Master
+
+//Character Modifier Player 2 Raiden
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A1CA,extended,00000007
+author=Code Master
+
+//Character Modifier Player 2 Reptile
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A1CA,extended,00000009
+author=Code Master
+
+//Character Modifier Player 2 Scorpion
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A1CA,extended,0000000A
+author=Code Master
+
+//Character Modifier Player 2 Shang Tsung
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A1CA,extended,00000006
+author=Code Master
+
+//Character Modifier Player 2 Shao Kahn (Hangs When Doing Moves)
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A1CA,extended,0000000D
+author=Code Master
+
+//Character Modifier Player 2 Smoke (Hangs When Doing Some Moves)
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A1CA,extended,0000000E
+author=Code Master
+
+//Character Modifier Player 2 Sub-Zero
+patch=1,EE,D0515100,extended,00100801
+patch=1,EE,1051A1CA,extended,00000008
+author=Code Master
