@@ -1,0 +1,86 @@
+//Need for Speed: Most Wanted - Black Edition (USA)
+
+//(Perlu diingat, aktifkan patch saat sudah load
+//save data yaa agar tidak terjadi korup memori nya) 
+
+//BMW M3 GTR IN CAR LOT
+patch=1,EE,20AB04C0,extended,000F0001
+
+//Have All Blacklist Completed 
+//patch=1,EE,00AAFF0C,extended,00000000
+
+//Enable Code (Must Be On)
+patch=1,EE,90494824,extended,0C1298E3
+
+//Infinite Speedbreaker
+patch=1,EE,203963D4,extended,00000000
+
+//Access All Cars
+patch=1,EE,20574624,extended,00000001
+
+//Inf Junkman Unique Rims
+patch=1,EE,20570220,extended,0000000B
+patch=1,EE,20570228,extended,00000001
+
+//Inf Junkman Tires
+patch=1,EE,20570214,extended,00000006
+patch=1,EE,2057021C,extended,00000001
+
+//Inf Junkman Transmission
+patch=1,EE,205701F0,extended,00000007
+patch=1,EE,205701F8,extended,00000001
+
+//Inf Junkman Brakes
+patch=1,EE,205701CC,extended,00000001
+patch=1,EE,205701D4,extended,00000001
+
+//Inf Junkman Suspension
+patch=1,EE,205701E4,extended,00000005
+patch=1,EE,205701EC,extended,00000001
+
+//Infinite Junkman Supercharger/Turbo
+patch=1,EE,205701FC,extended,00000004
+patch=1,EE,20570204,extended,00000001
+
+//Inf Junkman N20/NOS
+patch=1,EE,20570220,extended,00000003
+patch=1,EE,20570228,extended,00000001
+
+//Inf Junkman Engine
+patch=1,EE,205701A8,extended,00000002
+patch=1,EE,205701B0,extended,00000001
+
+//no car damage
+patch=1,EE,20AAFE60,extended,00000000
+
+//Disable Sun
+patch=1,EE,00386D04,word,C4000000
+
+//Disable Yellow Filter
+patch=1,EE,0040A500,word,C4000000
+
+//Have All Challenges Unlocked
+patch=1,EE,200C2000,extended,3421000C
+patch=1,EE,200C2008,extended,AC410004
+patch=1,EE,200C200C,extended,03E00008
+patch=1,EE,200C2010,extended,00301024
+patch=1,EE,202B47FC,extended,0C030800
+patch=1,EE,202B4800,extended,8C410004
+
+//Have All Challenges Completed (Requires Unlock Code Enabled) 
+//patch=1,EE,200C2004,extended,34210001
+
+//Unlock All Quick Race Cars 
+patch=1,EE,00AAFF0C,extended,00000001
+
+//Infinite Nitro 
+patch=1,EE,2036F0CC,extended,46001006
+
+//Infinite Cash 
+patch=1,EE,20AAFF10,extended,05F5E0FF
+
+//Max Cash 
+patch=1,EE,20AAFF10,extended,05F5E0FF
+
+Infinite Bounty 
+patch=1,EE,20AB8F10,extended,05F5E100
